@@ -107,11 +107,13 @@
 
     ├── 社区/
 
-    │   ├── LINUX DO 相关站点
+    │   ├── LINUX DO 相关站点（4个）
 
     │   ├── i4um
 
     │   ├── IDC Flare
+
+    │   ├── routerpark 免费大模型中转
 
     │   └── 其他社区导航
 
@@ -119,37 +121,43 @@
 
     ├── 有签到/
 
-    │   ├── wong（2个站点）
+    │   ├── 可自动签到/
 
-    │   ├── b4u（2个站点）
+    │   │   ├── 随时跑路（2个站点）
 
-    │   ├── elysiver 修仙（3个站点）
+    │   │   ├── 小呆（2个站点）
 
-    │   ├── 随时跑路（2个站点）
+    │   │   ├── anyrouter（2个站点）
 
-    │   ├── 黑与白（3个站点）
+    │   │   ├── wong（2个站点）
 
-    │   ├── 薄荷api（2个站点）
+    │   │   └── 其他单站（约15个）
 
-    │   ├── 莹佬（2个站点）
+    │   │
 
-    │   ├── 小呆（2个站点）
+    │   └── 需要手动签到/
 
-    │   ├── windhub（2个站点）
+    │       ├── b4u（2个站点）
 
-    │   ├── anyrouter（2个站点）
+    │       ├── 莹佬（2个站点）
 
-    │   └── 其他单站（约20个）
+    │       ├── elysiver 修仙（3个站点）
+
+    │       ├── 薄荷api（2个站点）
+
+    │       ├── 黑与白（3个站点）
+
+    │       ├── windhub（2个站点）
+
+    │       └── 其他单站（3个）
 
     │
 
     ├── 免费/
 
-    │   ├── Code Router 系列
+    │   ├── 996 系列（2个站点）
 
-    │   ├── 996 系列
-
-    │   └── 其他免费站点（约15个）
+    │   └── 其他免费站点（约13个）
 
     │
 
@@ -222,6 +230,66 @@
 - 删除失效链接
 - 更新变更的域名
 - 补充新发现的优质站点
+
+---
+
+## 🤖 使用 All API Hub 统一管理公益站
+
+对于"可自动签到"分类下的公益站，推荐使用 [All API Hub](https://github.com/qixing-jk/all-api-hub) 浏览器插件进行统一管理。
+
+### 什么是 All API Hub？
+
+All API Hub 是一个开源浏览器插件，专门用于管理基于 New API 系列的 AI 聚合中转站，支持：
+
+- 🔍 **自动识别站点**：自动识别基于 one-api、new-api、Veloera 等项目的中转站
+- 👥 **多账号管理**：统一查看所有站点的余额、使用情况和健康状态
+- 📆 **自动签到提醒**：标记未签到账号，一键完成多站点签到
+- 🔑 **密钥管理**：便捷管理和导出 API Key
+- 🤖 **模型信息**：查看各站点支持的模型列表和价格
+- ☁️ **数据备份**：支持 WebDAV 自动同步和 JSON 导入导出
+
+### 安装方式
+
+| 浏览器 | 安装链接 |
+|--------|----------|
+| Chrome | [Chrome 商店](https://chromewebstore.google.com/detail/lapnciffpekdengooeolaienkeoilfeo) |
+| Edge | [Edge 商店](https://microsoftedge.microsoft.com/addons/detail/pcokpjaffghgipcgjhapgdpeddlhblaa) |
+| Firefox | [Firefox 商店](https://addons.mozilla.org/firefox/addon/{bc73541a-133d-4b50-b261-36ea20df0d24}) |
+| 其他 | [GitHub Release](https://github.com/qixing-jk/all-api-hub/releases) |
+
+### 快速上手
+
+1. **安装插件**：从浏览器商店安装 All API Hub，并固定到工具栏
+
+2. **登录公益站**：在浏览器中正常登录各个公益站账号
+
+3. **添加账号到插件**：
+   - 点击插件图标 → "新增账号"
+   - 粘贴站点地址（如 `https://api.daiju.live`）
+   - 选择"自动识别"
+   - 如遇 Cloudflare 验证，在弹窗中完成即可
+
+4. **查看和管理**：
+   - 在插件面板查看所有账号余额
+   - 使用签到功能一键完成多站点签到
+   - 导出 API Key 到其他工具使用
+
+### 支持的公益站
+
+本书签"可自动签到"分类下的站点均基于 New API 系列，完全兼容 All API Hub：
+
+- ✅ 随时跑路、小呆、anyrouter、wong
+- ✅ 曼波API、轻のLLM、太子公益、API分享站
+- ✅ DEV88公益、Free DuckCoding、HotaruAPI
+- ✅ Huan 有大香蕉、KFC API、Mu.API 2026
+- ✅ nhh公益站、OuuAPI、ThatAPI、XiaoYo
+- ✅ 霸气公益平台、Neb 公益站
+
+### 详细文档
+
+- 📖 [官方文档](https://all-api-hub.qixing1217.top/)
+- ❓ [常见问题](https://all-api-hub.qixing1217.top/faq.html)
+- 🚀 [快速上手指南](https://all-api-hub.qixing1217.top/get-started.html)
 
 ---
 
